@@ -26,7 +26,7 @@ export default function Home({ allPostsData, allWorkData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Recent Work</h2>
+        <h2 className={utilStyles.headingLg}>Projects</h2>
         <ul className={utilStyles.list}>
           {allWorkData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
